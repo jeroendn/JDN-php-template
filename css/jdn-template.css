@@ -1,0 +1,67 @@
+body, html {
+  margin: 0;
+  font-family: "Catamaran", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: "Catamaran", sans-serif;
+}
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background-color: #fff;
+}
+
+#header {
+  width: 100%;
+  transition: top 400ms ease;
+  background-color: #fff;
+  color: #000;
+}
+
+#header.floating {
+  position: fixed;
+}
+
+#header a {
+  color: #000;
+}
+
+main {
+  min-height: 50vh;
+}
+
+.page-title-wrapper {
+  background-color: #333;
+}
+
+.page-title-wrapper .page-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+
+.page-title-wrapper .page-title h1 {
+  margin: 0;
+  color: #fff;
+}
+
+#footer {
+  background-color: #333;
+  color: #fff;
+}
+
+#footer #bottom-bar {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+}
