@@ -4,33 +4,28 @@
       <div class="footer-wrapper container pt-4 pb-3">
         <div class="row text-center text-xs-center text-sm-left text-md-left">
           <div class="col-xs-12 col-sm-4 col-md-4">
-            <h5>Heading</h5>
+            <h5>Template</h5>
             <ul class="list-unstyled">
-              <li><a href="#!">Home</a></li>
-              <li><a href="#!">About</a></li>
-              <li><a href="#!">FAQ</a></li>
-              <li><a href="#!">Get Started</a></li>
-              <li><a href="#!">Example</a></li>
+              <li><a href="https://github.com/jeroendn/JDN-php-template" target="_blank">Github</a></li>
+              <li><a href="/README.md">ReadMe</a></li>
+              <li><a href="<?= DOMAIN ?>" target="_blank"><?= DOMAIN_NAME ?></a></li>
             </ul>
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4">
-            <h5>Heading</h5>
+            <h5>Pages</h5>
             <ul class="list-unstyled">
-              <li><a href="#!">Home</a></li>
-              <li><a href="#!">About</a></li>
-              <li><a href="#!">FAQ</a></li>
-              <li><a href="#!">Get Started</a></li>
-              <li><a href="#!">Example</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/admin">Admin</a></li>
             </ul>
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4">
-            <h5>Heading</h5>
+            <h5>Lorem</h5>
             <ul class="list-unstyled">
-              <li><a href="#!">Home</a></li>
-              <li><a href="#!">About</a></li>
-              <li><a href="#!">FAQ</a></li>
-              <li><a href="#!">Get Started</a></li>
-              <li><a href="#!">Example</a></li>
+              <li><a href="#!">Lorem</a></li>
+              <li><a href="#!">Lorem</a></li>
+              <li><a href="#!">Lorem</a></li>
+              <li><a href="#!">Lorem</a></li>
+              <li><a href="#!">Lorem</a></li>
             </ul>
           </div>
         </div>
