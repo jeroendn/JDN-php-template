@@ -8,12 +8,12 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="home">Home</a>
+          <a class="nav-link" href="/home">Home</a>
         </li>
       </ul>
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#!">Logout</a>
+          <a class="nav-link" href="#!">Login</a>
         </li>
       </ul>
     </div>

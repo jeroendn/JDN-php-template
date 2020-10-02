@@ -1,15 +1,12 @@
 <?php
 require_once __DIR__ . '../../.config.php';
 
-$dbcon = false;
-
 try {
-	$conn = new PDO("mysql:host=$servername;dbname=$dbName",$dbUsername,$dbPassword);
+	$conn = new PDO("mysql:host=" . constant("DB_SERVERNAME") . ";dbname=" . constant("DB_TABLE_NAME") . "",constant("DB_USERNAME"),constant("DB_PASSWORD"));
 	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-	$dbcon = true;
 }
 catch(PDOException $e) {
-  // echo 'An error has occured: ' . $e->getMessage();
-	$dbcon = false;
+	if (SHOW_ERRORS) {
+		  echo 'An error has occured: ' . $e->getMessage();
+	}
 }

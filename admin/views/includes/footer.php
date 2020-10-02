@@ -37,7 +37,7 @@
       </div>
 
       <div id="bottom-bar" class="container-fluid pt-1 pb-1">
-        <p>Copyright &copy; 2020 - <?php echo date('Y', $_SERVER['REQUEST_TIME']); ?> <a href="<?php echo $domain; ?>"><?php echo $domainName; ?></a></p>
+        <p>Copyright &copy; 2020 - <?= date('Y', $_SERVER['REQUEST_TIME']) ?> <a href="<?= DOMAIN ?>"><?= DOMAIN_NAME ?></a></p>
       </div>
     </footer>
 

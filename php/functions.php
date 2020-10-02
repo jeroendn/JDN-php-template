@@ -1,6 +1,6 @@
 <?php
-function dbError() {
-  echo '<div class="db-error-message">Database connection failed!</div>';
+function dbError($e) {
+  ?><div class="dberror">A database error occured!<?php if (SHOW_ERRORS): ?> Error: <?php echo $e; endif; ?></div><?php
 }
 
 function getDomainName() {

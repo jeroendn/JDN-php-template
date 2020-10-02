@@ -6,7 +6,7 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
 
-RewriteRule ^$ pages/home.php
-RewriteRule ^home$ pages/home.php
+RewriteRule ^$ views/dashboard.php
+RewriteRule ^dashboard$ views/dashboard.php
 
 DirectoryIndex index.php
