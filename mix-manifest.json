@@ -1,5 +1,9 @@
 {
     "/css/jdn-template.css": "/css/jdn-template.css",
     "/css/style.css": "/css/style.css",
-    "/admin/css/style.css": "/admin/css/style.css"
+    "/admin/css/style.css": "/admin/css/style.css",
+    "/mix.js.map": "/mix.js.map",
+    "/css/jdn-template.css.map": "/css/jdn-template.css.map",
+    "/css/style.css.map": "/css/style.css.map",
+    "/admin/css/style.css.map": "/admin/css/style.css.map"
 }

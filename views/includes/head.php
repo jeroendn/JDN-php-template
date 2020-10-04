@@ -7,9 +7,12 @@
     <meta name="description" content="This is an example page">
     <!-- <meta name="robots" content="noindex"> -->
     <link rel="shortcut icon" href="media/design/favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/jdn-template.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css.map">
+    <link rel="stylesheet" type="text/css" href="/css/jdn-template.css">
+    <link rel="stylesheet" type="text/css" href="/css/jdn-template.css.map">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css.map">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- <meta name="theme-color" content="#fff"> -->

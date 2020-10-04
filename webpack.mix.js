@@ -13,7 +13,8 @@ let mix = require('webpack-mix');
 
 mix.sass('css/jdn-template.scss', 'css/jdn-template.css')
   .sass('css/style.scss', 'css/style.css')
-  .sass('admin/css/style.scss', 'admin/css/style.css');
+  .sass('admin/css/style.scss', 'admin/css/style.css')
+  .sourceMaps(true, 'source-map');
 
 // Full API
 // mix.js(src, output);
